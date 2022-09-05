@@ -8,7 +8,7 @@ A utility called sunwait is used in a crontab job to generate a daily file conta
 
 rc.local is a file that is run at boot, which called solartracker.  Merge the contents of the rc.local file in this project with the one on your pi located at /etc/rc.local.  Make sure there is an "&" character at the end of the line that calls solartracker.py. This will initiate the solartracker.py python script at the end of the boot process. 
 
-solartracker2_2.ino is a previous version of this program that ran on an Arduino.  It is brought in here for reference as to how these problems were solved previously.  It use a pair of photoresistors to sense the orintation of the solar array vs the sun as well as light/dark.  Settings were field calibrated and used analog inputs tot he arduino.  
+solartracker2_4 ino.ino is a previous version of this program that ran on an Arduino.  It is brought in here for reference as to how these problems were solved previously.  It use a pair of photoresistors to sense the orintation of the solar array vs the sun as well as light/dark.  Settings were field calibrated and used analog inputs tot he arduino.  
 
 Raspberry Pi I/O list: 
 
